@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova stranka</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Hlavný nadpis</h1>
+    <h1>Nadpis</h1>
+    <p>Tu je nejaký odsek textu.</p>
+    <a href="https://www.example.com">Toto je odkaz</a>
+    <img src="../static/kniznica.jpeg" alt="Popis obrázku">
+
+    <footer>
+        {% if year %}
+        <p>{{year}} Vsetky prava vyhradene.</p>
+        {% else %}
+            <p> Unknown. </p>
+        {% endif %}
+        </p>
+<!--        <p>&copy; {{year}} Všetky práva vyhradené.</p>-->
+    </footer>
+
+</body>
+</html>
